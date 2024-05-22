@@ -1,0 +1,18 @@
+var 
+inicio
+  escreva (" digite sua nota em matemática no primeiro trimestre: ")
+  leia (n1) 
+  escreva (" Digite sua nota em matemático no segundo trimestre: ")
+  leia (n2)
+  M <- n1 + n2 / 2
+  escreval (" sua media até agora é: ", M)
+  se (M >= 7) entao
+    escreval (" parabéns, você foi aprovado!!)
+  senao 
+     se (M >= 5) e (M <= 7) entao
+     escreval (" você ficou de recuperação ")   
+     senao 
+      escreval (" você está reprovado até agora ")
+      fimse
+  fimse        
+finalalgoritmo
